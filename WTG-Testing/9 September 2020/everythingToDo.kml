@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document xmlns="">
+    <name>everythingToDo</name>
+    <open>1</open>
+    <ExtendedData xmlns:mis="www.dji.com">
+      <mis:type>Waypoint</mis:type>
+      <mis:stationType>0</mis:stationType>
+    </ExtendedData>
+    <Style id="waylineGreenPoly">
+      <LineStyle>
+        <color>FF0AEE8B</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="waypointStyle">
+      <IconStyle>
+        <Icon>
+          <href>https://cdnen.dji-flighthub.com/static/app/images/point.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Waypoints</name>
+      <description>Waypoints in the Mission.</description>
+      <Placemark>
+        <name>Waypoint1</name>
+        <visibility>1</visibility>
+        <description>Waypoint</description>
+        <styleUrl>#waypointStyle</styleUrl>
+        <ExtendedData xmlns:mis="www.dji.com">
+          <mis:useWaylineAltitude>false</mis:useWaylineAltitude>
+          <mis:heading>-80</mis:heading>
+          <mis:turnMode>Auto</mis:turnMode>
+          <mis:gimbalPitch>-90.0</mis:gimbalPitch>
+          <mis:useWaylineSpeed>false</mis:useWaylineSpeed>
+          <mis:speed>2.0</mis:speed>
+          <mis:useWaylineHeadingMode>true</mis:useWaylineHeadingMode>
+          <mis:useWaylinePointType>true</mis:useWaylinePointType>
+          <mis:pointType>LineStop</mis:pointType>
+          <mis:cornerRadius>0.2</mis:cornerRadius>
+          <mis:actions param="10000" accuracy="0" cameraIndex="0" payloadType="0" payloadIndex="0">Hovering</mis:actions>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>78.06306138662899,10.059344130628986,40.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waypoint2</name>
+        <visibility>1</visibility>
+        <description>Waypoint</description>
+        <styleUrl>#waypointStyle</styleUrl>
+        <ExtendedData xmlns:mis="www.dji.com">
+          <mis:useWaylineAltitude>true</mis:useWaylineAltitude>
+          <mis:heading>90</mis:heading>
+          <mis:turnMode>Auto</mis:turnMode>
+          <mis:gimbalPitch>-45.0</mis:gimbalPitch>
+          <mis:useWaylineSpeed>true</mis:useWaylineSpeed>
+          <mis:speed>5.0</mis:speed>
+          <mis:useWaylineHeadingMode>true</mis:useWaylineHeadingMode>
+          <mis:useWaylinePointType>true</mis:useWaylinePointType>
+          <mis:pointType>LineStop</mis:pointType>
+          <mis:cornerRadius>0.2</mis:cornerRadius>
+          <mis:actions param="10000" accuracy="0" cameraIndex="0" payloadType="0" payloadIndex="0">Hovering</mis:actions>
+          <mis:actions param="0" accuracy="0" cameraIndex="0" payloadType="0" payloadIndex="0">ShootPhoto</mis:actions>
+          <mis:actions param="180" accuracy="0" cameraIndex="0" payloadType="0" payloadIndex="0">AircraftYaw</mis:actions>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>78.11919652636243,9.987846815392587,30.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waypoint3</name>
+        <visibility>1</visibility>
+        <description>Waypoint</description>
+        <styleUrl>#waypointStyle</styleUrl>
+        <ExtendedData xmlns:mis="www.dji.com">
+          <mis:useWaylineAltitude>true</mis:useWaylineAltitude>
+          <mis:heading>0</mis:heading>
+          <mis:turnMode>Auto</mis:turnMode>
+          <mis:gimbalPitch>0.0</mis:gimbalPitch>
+          <mis:useWaylineSpeed>true</mis:useWaylineSpeed>
+          <mis:speed>5.0</mis:speed>
+          <mis:useWaylineHeadingMode>true</mis:useWaylineHeadingMode>
+          <mis:useWaylinePointType>true</mis:useWaylinePointType>
+          <mis:pointType>LineStop</mis:pointType>
+          <mis:cornerRadius>0.2</mis:cornerRadius>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>78.2211952576713,9.87821849456796,30.0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Placemark>
+      <name>Wayline</name>
+      <description>Wayline</description>
+      <visibility>1</visibility>
+      <ExtendedData xmlns:mis="www.dji.com">
+        <mis:altitude>30.0</mis:altitude>
+        <mis:autoFlightSpeed>5.0</mis:autoFlightSpeed>
+        <mis:actionOnFinish>Hover</mis:actionOnFinish>
+        <mis:headingMode>UsePointSetting</mis:headingMode>
+        <mis:gimbalPitchMode>UsePointSetting</mis:gimbalPitchMode>
+        <mis:powerSaveMode>false</mis:powerSaveMode>
+        <mis:waypointType>LineStop</mis:waypointType>
+        <mis:droneInfo>
+          <mis:droneType>COMMON</mis:droneType>
+          <mis:advanceSettings>false</mis:advanceSettings>
+          <mis:droneCameras/>
+          <mis:droneHeight>
+            <mis:useAbsolute>false</mis:useAbsolute>
+            <mis:hasTakeoffHeight>false</mis:hasTakeoffHeight>
+            <mis:takeoffHeight>0.0</mis:takeoffHeight>
+          </mis:droneHeight>
+        </mis:droneInfo>
+      </ExtendedData>
+      <styleUrl>#waylineGreenPoly</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>78.06306138662899,10.059344130628986,40.0 78.11919652636243,9.987846815392587,30.0 78.2211952576713,9.87821849456796,30.0</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

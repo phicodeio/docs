@@ -1,0 +1,3 @@
+/home/sam/Desktop/wtg/3point-approach/mk1/p1/build/CMakeFiles/rebuild_cache.dir
+/home/sam/Desktop/wtg/3point-approach/mk1/p1/build/CMakeFiles/region-grow.dir
+/home/sam/Desktop/wtg/3point-approach/mk1/p1/build/CMakeFiles/edit_cache.dir
